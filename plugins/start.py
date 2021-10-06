@@ -7,9 +7,9 @@ async def start(client, message):
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Channel", url="https://t.me/LanaDelReyEN")],
         [InlineKeyboardButton(
-            "Report Bugs 😊", url="https://t.me/ccc_l")],
+            "Spotify Bot", url="https://t.me/SpotifyDownloadderBot")],
         [InlineKeyboardButton(
-            "Spotify Bot", url="https://t.me/ccc_l")],
+            "Report Bugs 🤦🏻‍♂️", url="https://t.me/ccc_l")],
 
     ])
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\n/help for More info"
